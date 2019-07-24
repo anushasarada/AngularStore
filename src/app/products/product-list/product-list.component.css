@@ -1,0 +1,7 @@
+.row a{
+    color: inherit;
+    text-decoration: none;
+}
+.row a .card:hover{
+    box-shadow: 0px 0px 3px 3px lightblue
+}

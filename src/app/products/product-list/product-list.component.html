@@ -1,0 +1,13 @@
+<div class="container my-4" *ngIf="products">
+    <div class="row">
+        <a class="col-3" *ngFor="let product of products" routerLink="{{product.id}}">
+            <div class="card my-3 p-3">
+                <img class="card-img-top" src="{{product.imageUrl}}" alt="" />
+                <div class="card-body">
+                    <h4 class="card-title">{{product.name}}</h4>
+                    <p class="card-text">{{product.description}}</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
